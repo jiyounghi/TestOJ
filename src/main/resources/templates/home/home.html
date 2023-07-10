@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+</head>
+<body>
+  홈페이지 입니당~~^^ 방가방가^^<br>
+  제가 구현한 기능들입니다 ^^
+  <ul>
+      <li><a th:href="@{/Mem/LoginPage}">로그인</a></li>
+      <li><a th:href="@{/member/mem-join.html}">회원가입</a></li>
+      <li><a th:href="@{/member/mem-update.html}">회원정보 수정</a></li>
+      <li><a th:href="@{/member/mem-delete.html.html}">회원 탈퇴</a></li>
+      <br>
+      <li><a th:href="@{/Test/getSolution}">문제보기</a></li>
+      <li><a th:href="@{/Test/}">랭킹</a></li>
+  </ul>
+
+</body>
+</html>

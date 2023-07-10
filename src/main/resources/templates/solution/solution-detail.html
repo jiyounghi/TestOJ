@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>문제</title>
+</head>
+<body>
+<h3>문제 조회</h3>
+<table th:border="1" th:color="black">
+    <th>문제 번호</th>
+    <th>문제 제목</th>
+    <th>문제 내용</th>
+    <tr>
+        <td th:text="${solVO.getSolNo()}"></td>
+        <td th:text="${solVO.getSolTitle()}"></td>
+        <td th:text="${solVO.getSolDetail()}"></td>
+    </tr>
+</table>
+
+</body>
+</html>

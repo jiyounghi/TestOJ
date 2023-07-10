@@ -1,0 +1,41 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+rebel.xml
+**/rebel.xml
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+/logs/
+/src/main/resources/static/css/
+/src/main/resources/static/resources/
+/src/main/resources/application.properties
+/src/main/resources/static/css/.idea/css.iml
+#/src/main/resources/static/css/
